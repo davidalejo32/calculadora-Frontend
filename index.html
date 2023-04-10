@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>CALC-TENEA</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="header-title">CALC-TENEA</h2>
+  </header>
+  <main class="main">
+
+
+    <form class="form-calc" id="form">
+
+      <div class="container-num">
+        <label class="label" for="num1">NUMERO 1</label>
+        <input class="input" type="number" id="num1" name="num1" required>
+      </div>
+
+      <div class="container-num">
+        <label class="label" for="num2">NUMERO 2</label>
+        <input class="input" type="number" id="num2" name="num2" required>
+      </div>
+
+      <div class="container-btn">
+        <button class="btn" id="btnSum">+</button>
+        <button class="btn" id="btnRes">-</button>
+        <button class="btn" id="btnMul">x</button>
+        <button class="btn" id="btnDiv">/</button>
+      </div>
+    </form>
+
+
+    <section class="section-res">
+      <div class="result-container">
+        <h4 class="result-title">RESULTADO</h4>
+        <p class="result"></p>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
